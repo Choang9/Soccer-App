@@ -31,6 +31,12 @@ class App extends React.Component {
           )}
         />
         <Route
+          path="/astonvilla/players"
+          render={() => (
+            <Players image="../images/AstonVilla.svg" team="Aston Villa" />
+          )}
+        />
+        <Route
           path="/brighton/overview"
           render={() => (
             <Team image="../images/Brighton.svg" team="Brighton" />
