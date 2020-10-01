@@ -1,4 +1,4 @@
-/* Home page css */
+/* Header css */
 .main-header {
   display: flex;
   background-color: purple;
@@ -15,6 +15,17 @@
   align-self: center;
 }
 
+.nav-link {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.dropdown-menu {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+/* Home page css */
 .team-content {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -86,4 +97,49 @@ a:visited {
 .team-image {
   height: 130px;
   width: 130px;
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#player {
+  height: 300px;
+  width: 300px;
+  margin: 17px;
+}
+
+/* Player page css */
+.form-inline {
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+
+.list-group-item {
+  width: 600px;
+}
+
+/* Standings page css */
+.standings {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+#position,
+#matches,
+#wins,
+#draws,
+#losses,
+#gf,
+#ga,
+#gd,
+#points {
+  width: 100px;
+}
+
+#team {
+  width: 350px;
 }

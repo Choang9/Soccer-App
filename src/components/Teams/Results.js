@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Overview = (props) => {
+const Results = (props) => {
   return (
     <>
       <div className="team-header">
@@ -11,11 +11,11 @@ const Overview = (props) => {
       <nav className="navbar navbar-light bg-light">
         <Link to={props.overviewUrl} className="navbar-brand">Overview</Link>
         <Link to={props.playersUrl} className="navbar-brand">Players</Link>
-        <Link to={props.resultsUrl} className="navbar-brand">Results</Link>
+        <Link to={props.fixturesUrl} className="navbar-brand">Results</Link>
       </nav>
-      <h1>Overview</h1>
+      <h1>Results</h1>
     </>
   );
 };
 
-export default Overview;
+export default Results;

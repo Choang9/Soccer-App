@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
       <div className="main-header" id="top">
-        <img src="./images/PremierLeague.png" className="main-image" />
-        <h1 className="main-title">Premier League Data</h1>
+        <img src="./images/PremierLeague.png" alt="Premier League" className="main-image" />
+        <h1 className="main-title">Premier League 2019/20 Data</h1>
       </div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,17 +23,45 @@ const Header = () => {
                 Teams
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">Action</a>
-                <a className="dropdown-item" href="#">Another action</a>
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="#">Something else here</a>
+                <Link to="/arsenal/overview" className="nav-link">Arsenal</Link>
+                <Link to="/astonvilla/overview" className="nav-link">Aston Villa</Link>
+                <Link to="/bournemouth/overview" className="nav-link">Bournemouth</Link>
+                <Link to="/brighton/overview" className="nav-link">Brighton</Link>
+                <Link to="/burnley/overview" className="nav-link">Burnley</Link>
+                <Link to="/chelsea/overview" className="nav-link">Chelsea</Link>
+                <Link to="/crystalpalace/overview" className="nav-link">Crystal Palace</Link>
+                <Link to="/everton/overview" className="nav-link">Everton</Link>
+                <Link to="/leicester/overview" className="nav-link">Leicester</Link>
+                <Link to="/liverpool/overview" className="nav-link">Liverpool</Link>
+                <Link to="/mancity/overview" className="nav-link">Man City</Link>
+                <Link to="/manutd/overview" className="nav-link">Man Utd</Link>
+                <Link to="/newcastle/overview" className="nav-link">Newcastle</Link>
+                <Link to="/norwich/overview" className="nav-link">Norwich</Link>
+                <Link to="/sheffieldutd/overview" className="nav-link">Sheffield Utd</Link>
+                <Link to="/southampton/overview" className="nav-link">Southampton</Link>
+                <Link to="/tottenham/overview" className="nav-link">Tottenham</Link>
+                <Link to="/watford/overview" className="nav-link">Watford</Link>
+                <Link to="/westham/overview" className="nav-link">West Ham</Link>
+                <Link to="/wolves/overview" className="nav-link">Wolves</Link>
               </div>
             </li>
+            <li class="nav-item">
+              <Link to="/players" className="nav-link">Players</Link>
+            </li>
+            <li class="nav-item">
+              <Link to="/results" className="nav-link">Results</Link>
+            </li>
+            <li class="nav-item">
+              <Link to="/standings" className="nav-link">Standings</Link>
+            </li>
+            <li class="nav-item">
+              <Link to="/seasonstats" className="nav-link">Season Stats</Link>
+            </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          {/* <form className="form-inline my-2 my-lg-0">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> */}
         </div>
       </nav>
     </>

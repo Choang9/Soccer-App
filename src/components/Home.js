@@ -41,6 +41,22 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
+              src="./images/Bournemouth.svg"
+              className="card-img-top"
+              alt="Bournemouth"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Bournemouth</h5>
+              <p className="card-text">Vitality Stadium, Bournemouth</p>
+              <Link to="/bournemouth/overview" className="btn btn-primary">
+                More information
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="col mb-4">
+          <div className="card h-100">
+            <img
               src="./images/Brighton.svg"
               className="card-img-top"
               alt="Brighton"
@@ -64,7 +80,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Burnley</h5>
               <p className="card-text">Turf Moor, Burnley</p>
-              <Link to="/burnley" className="btn btn-primary">
+              <Link to="/burnley/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -80,7 +96,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Chelsea</h5>
               <p className="card-text">Stamford Bridge, London</p>
-              <Link to="/chelsea" className="btn btn-primary">
+              <Link to="/chelsea/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -96,7 +112,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Crystal Palace</h5>
               <p className="card-text">Selhurst Park, London</p>
-              <Link to="/crystalpalace" className="btn btn-primary">
+              <Link to="/crystalpalace/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -112,39 +128,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Everton</h5>
               <p className="card-text">Goodison Park, Liverpool</p>
-              <Link to="/everton" className="btn btn-primary">
-                More information
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col mb-4">
-          <div className="card h-100">
-            <img
-              src="./images/Fulham.svg"
-              className="card-img-top"
-              alt="Fulham"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Fulham</h5>
-              <p className="card-text">Craven Cottage, London</p>
-              <Link to="/fulham" className="btn btn-primary">
-                More information
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col mb-4">
-          <div className="card h-100">
-            <img
-              src="./images/Leeds.svg"
-              className="card-img-top"
-              alt="Leeds"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Leeds</h5>
-              <p className="card-text">Elland Road, Leeds</p>
-              <Link to="/leeds" className="btn btn-primary">
+              <Link to="/everton/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -160,7 +144,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Leicester</h5>
               <p className="card-text">King Power Stadium, Leicester</p>
-              <Link to="/leicester" className="btn btn-primary">
+              <Link to="/leicester/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -176,7 +160,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Liverpool</h5>
               <p className="card-text">Anfield, Liverpool</p>
-              <Link to="/liverpool" className="btn btn-primary">
+              <Link to="/liverpool/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -192,7 +176,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Man City</h5>
               <p className="card-text">Etihad Stadium, Manchester</p>
-              <Link to="/mancity" className="btn btn-primary">
+              <Link to="/mancity/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -208,7 +192,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Man Utd</h5>
               <p className="card-text">Old Trafford, Manchester</p>
-              <Link to="/manutd" className="btn btn-primary">
+              <Link to="/manutd/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -220,7 +204,23 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Newcastle</h5>
               <p className="card-text">St. James' Park, Newcastle</p>
-              <Link to="/newcastle" className="btn btn-primary">
+              <Link to="/newcastle/overview" className="btn btn-primary">
+                More information
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="col mb-4">
+          <div className="card h-100">
+            <img
+              src="./images/Norwich.svg"
+              className="card-img-top"
+              alt="Norwich"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Norwich</h5>
+              <p className="card-text">Carrow Road, Norwich</p>
+              <Link to="/norwich/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -236,7 +236,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Sheffield Utd</h5>
               <p className="card-text">Bramall Lane, Sheffield</p>
-              <Link to="/sheffieldutd" className="btn btn-primary">
+              <Link to="/sheffieldutd/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -252,7 +252,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Southampton</h5>
               <p className="card-text">St Mary's Stadium, Southampton</p>
-              <Link to="/southampton" className="btn btn-primary">
+              <Link to="/southampton/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -268,7 +268,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Tottenham</h5>
               <p className="card-text">Tottenham Hotspur Stadium, London</p>
-              <Link to="/tottenham" className="btn btn-primary">
+              <Link to="/tottenham/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -277,14 +277,14 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/WestBrom.svg"
+              src="./images/Watford.svg"
               className="card-img-top"
-              alt="West Brom"
+              alt="Watford"
             />
             <div className="card-body">
-              <h5 className="card-title">West Brom</h5>
-              <p className="card-text">The Hawthorns, West Bromwich</p>
-              <Link to="/westbrom" className="btn btn-primary">
+              <h5 className="card-title">Watford</h5>
+              <p className="card-text">Vicarage Road, Watford</p>
+              <Link to="/watford/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -300,7 +300,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">West Ham</h5>
               <p className="card-text">London Stadium, London</p>
-              <Link to="/westham" className="btn btn-primary">
+              <Link to="/westham/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
@@ -316,7 +316,7 @@ const Home = () => {
             <div className="card-body">
               <h5 className="card-title">Wolves</h5>
               <p className="card-text">Molineux Stadium, Wolverhampton</p>
-              <Link to="/wolves" className="btn btn-primary">
+              <Link to="/wolves/overview" className="btn btn-primary">
                 More information
               </Link>
             </div>
