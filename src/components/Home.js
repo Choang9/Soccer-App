@@ -323,11 +323,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="main-footer">
-        <a href="#top">
-          <h5>Back to top</h5>
-        </a>
-      </div>
     </div>
   );
 };

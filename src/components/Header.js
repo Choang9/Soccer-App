@@ -8,6 +8,9 @@ const Header = () => {
         <img src="./images/PremierLeague.png" alt="Premier League" className="main-image" />
         <h1 className="main-title">Premier League 2019/20 Data</h1>
       </div>
+      <div className="alert alert-primary" role="alert">
+        This is a demo project and has free tier API access with incomplete data.
+      </div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -19,7 +22,7 @@ const Header = () => {
               <Link to="/" className="nav-link">Home <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Teams
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,18 +48,18 @@ const Header = () => {
                 <Link to="/wolves/overview" className="nav-link">Wolves</Link>
               </div>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link to="/players" className="nav-link">Players</Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link to="/results" className="nav-link">Results</Link>
-            </li>
-            <li class="nav-item">
+            </li> */}
+            <li className="nav-item">
               <Link to="/standings" className="nav-link">Standings</Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link to="/seasonstats" className="nav-link">Season Stats</Link>
-            </li>
+            </li> */}
           </ul>
           {/* <form className="form-inline my-2 my-lg-0">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />

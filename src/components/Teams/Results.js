@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// To be done in the future
 const Results = (props) => {
   return (
     <>

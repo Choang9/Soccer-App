@@ -99,12 +99,16 @@ a:visited {
   width: 130px;
 }
 
+.team-desc {
+  margin: 20px 15px;
+}
+
 .player-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-#player {
+.player {
   height: 300px;
   width: 300px;
   margin: 17px;
@@ -121,10 +125,13 @@ a:visited {
   width: 600px;
 }
 
+.blank-space {
+  height: 50px;
+}
+
 /* Standings page css */
 .standings {
   margin-top: 50px;
-  margin-bottom: 50px;
   display: flex;
 }
 

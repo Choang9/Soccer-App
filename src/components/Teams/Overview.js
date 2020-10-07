@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Overview = (props) => {
   return (
@@ -9,11 +9,25 @@ const Overview = (props) => {
         <h1 className="team-name">{props.team}</h1>
       </div>
       <nav className="navbar navbar-light bg-light">
-        <Link to={props.overviewUrl} className="navbar-brand">Overview</Link>
-        <Link to={props.playersUrl} className="navbar-brand">Players</Link>
-        <Link to={props.resultsUrl} className="navbar-brand">Results</Link>
+        <NavLink
+          to={props.overviewUrl}
+          className="navbar-brand"
+          activeStyle={{
+            textDecoration: "underline"
+          }}>
+          Overview
+        </NavLink>
+        <NavLink
+          to={props.playersUrl}
+          className="navbar-brand"
+          activeStyle={{
+            textDecoration: "underline"
+          }}>
+          Players
+        </NavLink>
+        {/* <NavLink to={props.resultsUrl} className="navbar-brand">Results</NavLink> */}
       </nav>
-      <h1>Overview</h1>
+      <p className="team-desc">{props.desc}</p>
     </>
   );
 };
