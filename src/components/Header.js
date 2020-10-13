@@ -51,9 +51,9 @@ const Header = () => {
             <li className="nav-item">
               <Link to="/players" className="nav-link">Players</Link>
             </li>
-            {/* <li class="nav-item">
+            <li class="nav-item">
               <Link to="/results" className="nav-link">Results</Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link to="/standings" className="nav-link">Standings</Link>
             </li>

@@ -150,3 +150,22 @@ a:visited {
 #team {
   width: 350px;
 }
+
+/* Results page css */
+.results {
+  margin-top: 50px;
+  display: flex;
+}
+
+#gameweek {
+  width: 150px
+}
+
+#home-team,
+#away-team {
+  width: 250px
+}
+
+#score {
+  width: 70px
+}

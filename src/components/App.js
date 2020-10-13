@@ -6,9 +6,10 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Overview from "./Teams/Overview";
 import TeamPlayerList from "./Teams/TeamPlayerList";
-// import Results from "./Teams/Results";
+import TeamResultsList from "./Teams/TeamResultsList";
 import MainPlayerList from "./MainPlayerList";
 import Standings from "./Standings";
+import Results from "./Results";
 
 
 class App extends React.Component {
@@ -65,18 +66,19 @@ class App extends React.Component {
             />
           )}
         />
-        {/* <Route
+        <Route
           path="/arsenal/results"
           render={() => (
-            <Results
+            <TeamResultsList
               image="../images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
-              // resultsUrl="/arsenal/results"
+              resultsUrl="/arsenal/results"
+              teamId={59}
             />
           )}
-        /> */}
+        />
         <Route
           path="/astonvilla/overview"
           render={() => (
@@ -829,6 +831,10 @@ class App extends React.Component {
         <Route
           path="/standings"
           component={Standings}
+        />
+        <Route
+          path="/results"
+          component={Results}
         />
         <Footer />
       </BrowserRouter >
