@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Soccer-App/static/css/main.efd32324.chunk.css",
+    "main.js": "/Soccer-App/static/js/main.b21c2153.chunk.js",
+    "main.js.map": "/Soccer-App/static/js/main.b21c2153.chunk.js.map",
+    "runtime-main.js": "/Soccer-App/static/js/runtime-main.b6c84283.js",
+    "runtime-main.js.map": "/Soccer-App/static/js/runtime-main.b6c84283.js.map",
+    "static/js/2.289d1c9a.chunk.js": "/Soccer-App/static/js/2.289d1c9a.chunk.js",
+    "static/js/2.289d1c9a.chunk.js.map": "/Soccer-App/static/js/2.289d1c9a.chunk.js.map",
+    "index.html": "/Soccer-App/index.html",
+    "precache-manifest.ae23c0a9505ad0a9164921baba186f8d.js": "/Soccer-App/precache-manifest.ae23c0a9505ad0a9164921baba186f8d.js",
+    "service-worker.js": "/Soccer-App/service-worker.js",
+    "static/css/main.efd32324.chunk.css.map": "/Soccer-App/static/css/main.efd32324.chunk.css.map",
+    "static/js/2.289d1c9a.chunk.js.LICENSE.txt": "/Soccer-App/static/js/2.289d1c9a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6c84283.js",
+    "static/js/2.289d1c9a.chunk.js",
+    "static/css/main.efd32324.chunk.css",
+    "static/js/main.b21c2153.chunk.js"
+  ]
+}
