@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Soccer-App/static/css/main.efd32324.chunk.css",
-    "main.js": "/Soccer-App/static/js/main.0cafb4f8.chunk.js",
-    "main.js.map": "/Soccer-App/static/js/main.0cafb4f8.chunk.js.map",
+    "main.js": "/Soccer-App/static/js/main.858ab36d.chunk.js",
+    "main.js.map": "/Soccer-App/static/js/main.858ab36d.chunk.js.map",
     "runtime-main.js": "/Soccer-App/static/js/runtime-main.b6c84283.js",
     "runtime-main.js.map": "/Soccer-App/static/js/runtime-main.b6c84283.js.map",
     "static/js/2.289d1c9a.chunk.js": "/Soccer-App/static/js/2.289d1c9a.chunk.js",
     "static/js/2.289d1c9a.chunk.js.map": "/Soccer-App/static/js/2.289d1c9a.chunk.js.map",
     "index.html": "/Soccer-App/index.html",
-    "precache-manifest.bd32741dc41979bac53ad91a2f8c8440.js": "/Soccer-App/precache-manifest.bd32741dc41979bac53ad91a2f8c8440.js",
+    "precache-manifest.af7f1fa918cbc1db690203e5b32558db.js": "/Soccer-App/precache-manifest.af7f1fa918cbc1db690203e5b32558db.js",
     "service-worker.js": "/Soccer-App/service-worker.js",
     "static/css/main.efd32324.chunk.css.map": "/Soccer-App/static/css/main.efd32324.chunk.css.map",
     "static/js/2.289d1c9a.chunk.js.LICENSE.txt": "/Soccer-App/static/js/2.289d1c9a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b6c84283.js",
     "static/js/2.289d1c9a.chunk.js",
     "static/css/main.efd32324.chunk.css",
-    "static/js/main.0cafb4f8.chunk.js"
+    "static/js/main.858ab36d.chunk.js"
   ]
 }
