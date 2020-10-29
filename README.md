@@ -26,7 +26,7 @@ npm start
 
 ## Usage
 
-When the application is open, you can access any data you want by clicking at the links. You can view data of a particular team, a particular player, and the standings of the English Premier League season 2019/20. Note that this application has incomplete data.
+When the application is open, you can access any data you want by clicking at the links. You can view data of a particular team, a particular player, match results and the standings of the English Premier League season 2019/20. Note that this application has incomplete data.
 
 ## Acknowledgements
 
