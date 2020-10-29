@@ -44,7 +44,7 @@ class App extends React.Component {
           path="/arsenal/overview"
           render={() => (
             <Overview
-              image="./images/Arsenal.svg"
+              image="../Soccer-App/images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
@@ -57,7 +57,7 @@ class App extends React.Component {
           path="/arsenal/players"
           render={() => (
             <TeamPlayerList
-              image="./images/Arsenal.svg"
+              image="../Soccer-App/images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
@@ -71,7 +71,7 @@ class App extends React.Component {
           path="/arsenal/results"
           render={() => (
             <TeamResultsList
-              image="./images/Arsenal.svg"
+              image="../Soccer-App/images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
@@ -84,7 +84,7 @@ class App extends React.Component {
           path="/astonvilla/overview"
           render={() => (
             <Overview
-              image="../images/AstonVilla.svg"
+              image="../Soccer-App/images/AstonVilla.svg"
               team="Aston Villa"
               overviewUrl="/astonvilla/overview"
               playersUrl="/astonvilla/players"
@@ -97,7 +97,7 @@ class App extends React.Component {
           path="/astonvilla/players"
           render={() => (
             <TeamPlayerList
-              image="../images/AstonVilla.svg"
+              image="../Soccer-App/images/AstonVilla.svg"
               team="Aston Villa"
               overviewUrl="/astonvilla/overview"
               playersUrl="/astonvilla/players"
@@ -111,7 +111,7 @@ class App extends React.Component {
           path="/astonvilla/results"
           render={() => (
             <Results
-              image="../images/AstonVilla.svg"
+              image="../Soccer-App/images/AstonVilla.svg"
               team="Aston Villa"
               overviewUrl="/astonvilla/overview"
               playersUrl="/astonvilla/players"
@@ -123,7 +123,7 @@ class App extends React.Component {
           path="/bournemouth/overview"
           render={() => (
             <Overview
-              image="../images/Bournemouth.svg"
+              image="../Soccer-App/images/Bournemouth.svg"
               team="Bournemouth"
               overviewUrl="/bournemouth/overview"
               playersUrl="/bournemouth/players"
@@ -136,7 +136,7 @@ class App extends React.Component {
           path="/bournemouth/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Bournemouth.svg"
+              image="../Soccer-App/images/Bournemouth.svg"
               team="Bournemouth"
               overviewUrl="/bournemouth/overview"
               playersUrl="/bournemouth/players"
@@ -150,7 +150,7 @@ class App extends React.Component {
           path="/bournemouth/results"
           render={() => (
             <Results
-              image="../images/Bournemouth.svg"
+              image="../Soccer-App/images/Bournemouth.svg"
               team="Bournemouth"
               overviewUrl="/bournemouth/overview"
               playersUrl="/bournemouth/players"
@@ -162,7 +162,7 @@ class App extends React.Component {
           path="/brighton/overview"
           render={() => (
             <Overview
-              image="../images/Brighton.svg"
+              image="../Soccer-App/images/Brighton.svg"
               team="Brighton"
               overviewUrl="/brighton/overview"
               playersUrl="/brighton/players"
@@ -175,7 +175,7 @@ class App extends React.Component {
           path="/brighton/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Brighton.svg"
+              image="../Soccer-App/images/Brighton.svg"
               team="Brighton"
               overviewUrl="/brighton/overview"
               playersUrl="/brighton/players"
@@ -189,7 +189,7 @@ class App extends React.Component {
           path="/brighton/results"
           render={() => (
             <Results
-              image="../images/Brighton.svg"
+              image="../Soccer-App/images/Brighton.svg"
               team="Brighton"
               overviewUrl="/brighton/overview"
               playersUrl="/brighton/players"
@@ -201,7 +201,7 @@ class App extends React.Component {
           path="/burnley/overview"
           render={() => (
             <Overview
-              image="../images/Burnley.svg"
+              image="../Soccer-App/images/Burnley.svg"
               team="Burnley"
               overviewUrl="/burnley/overview"
               playersUrl="/burnley/players"
@@ -214,7 +214,7 @@ class App extends React.Component {
           path="/burnley/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Burnley.svg"
+              image="../Soccer-App/images/Burnley.svg"
               team="Burnley"
               overviewUrl="/burnley/overview"
               playersUrl="/burnley/players"
@@ -228,7 +228,7 @@ class App extends React.Component {
           path="/burnley/results"
           render={() => (
             <Results
-              image="../images/Burnley.svg"
+              image="../Soccer-App/images/Burnley.svg"
               team="Burnley"
               overviewUrl="/burnley/overview"
               playersUrl="/burnley/players"
@@ -240,7 +240,7 @@ class App extends React.Component {
           path="/chelsea/overview"
           render={() => (
             <Overview
-              image="../images/Chelsea.svg"
+              image="../Soccer-App/images/Chelsea.svg"
               team="Chelsea"
               overviewUrl="/chelsea/overview"
               playersUrl="/chelsea/players"
@@ -253,7 +253,7 @@ class App extends React.Component {
           path="/chelsea/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Chelsea.svg"
+              image="../Soccer-App/images/Chelsea.svg"
               team="Chelsea"
               overviewUrl="/chelsea/overview"
               playersUrl="/chelsea/players"
@@ -267,7 +267,7 @@ class App extends React.Component {
           path="/chelsea/results"
           render={() => (
             <Results
-              image="../images/Chelsea.svg"
+              image="../Soccer-App/images/Chelsea.svg"
               team="Chelsea"
               overviewUrl="/chelsea/overview"
               playersUrl="/chelsea/players"
@@ -279,7 +279,7 @@ class App extends React.Component {
           path="/crystalpalace/overview"
           render={() => (
             <Overview
-              image="../images/CrystalPalace.svg"
+              image="../Soccer-App/images/CrystalPalace.svg"
               team="Crystal Palace"
               overviewUrl="/crystalpalace/overview"
               playersUrl="/crystalpalace/players"
@@ -292,7 +292,7 @@ class App extends React.Component {
           path="/crystalpalace/players"
           render={() => (
             <TeamPlayerList
-              image="../images/CrystalPalace.svg"
+              image="../Soccer-App/images/CrystalPalace.svg"
               team="Crystal Palace"
               overviewUrl="/crystalpalace/overview"
               playersUrl="/crystalpalace/players"
@@ -306,7 +306,7 @@ class App extends React.Component {
           path="/crystalpalace/results"
           render={() => (
             <Results
-              image="../images/CrystalPalace.svg"
+              image="../Soccer-App/images/CrystalPalace.svg"
               team="Crystal Palace"
               overviewUrl="/crystalpalace/overview"
               playersUrl="/crystalpalace/players"
@@ -318,7 +318,7 @@ class App extends React.Component {
           path="/everton/overview"
           render={() => (
             <Overview
-              image="../images/Everton.svg"
+              image="../Soccer-App/images/Everton.svg"
               team="Everton"
               overviewUrl="/everton/overview"
               playersUrl="/everton/players"
@@ -331,7 +331,7 @@ class App extends React.Component {
           path="/everton/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Everton.svg"
+              image="../Soccer-App/images/Everton.svg"
               team="Everton"
               overviewUrl="/everton/overview"
               playersUrl="/everton/players"
@@ -345,7 +345,7 @@ class App extends React.Component {
           path="/everton/results"
           render={() => (
             <Results
-              image="../images/Everton.svg"
+              image="../Soccer-App/images/Everton.svg"
               team="Everton"
               overviewUrl="/everton/overview"
               playersUrl="/everton/players"
@@ -357,7 +357,7 @@ class App extends React.Component {
           path="/leicester/overview"
           render={() => (
             <Overview
-              image="../images/Leicester.svg"
+              image="../Soccer-App/images/Leicester.svg"
               team="Leicester"
               overviewUrl="/leicester/overview"
               playersUrl="/leicester/players"
@@ -370,7 +370,7 @@ class App extends React.Component {
           path="/leicester/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Leicester.svg"
+              image="../Soccer-App/images/Leicester.svg"
               team="Leicester"
               overviewUrl="/leicester/overview"
               playersUrl="/leicester/players"
@@ -384,7 +384,7 @@ class App extends React.Component {
           path="/leicester/results"
           render={() => (
             <Results
-              image="../images/Leicester.svg"
+              image="../Soccer-App/images/Leicester.svg"
               team="Leicester"
               overviewUrl="/leicester/overview"
               playersUrl="/leicester/players"
@@ -396,7 +396,7 @@ class App extends React.Component {
           path="/liverpool/overview"
           render={() => (
             <Overview
-              image="../images/Liverpool.svg"
+              image="../Soccer-App/images/Liverpool.svg"
               team="Liverpool"
               overviewUrl="/liverpool/overview"
               playersUrl="/liverpool/players"
@@ -409,7 +409,7 @@ class App extends React.Component {
           path="/liverpool/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Liverpool.svg"
+              image="../Soccer-App/images/Liverpool.svg"
               team="Liverpool"
               overviewUrl="/liverpool/overview"
               playersUrl="/liverpool/players"
@@ -423,7 +423,7 @@ class App extends React.Component {
           path="/liverpool/results"
           render={() => (
             <Results
-              image="../images/Liverpool.svg"
+              image="../Soccer-App/images/Liverpool.svg"
               team="Liverpool"
               overviewUrl="/liverpool/overview"
               playersUrl="/liverpool/players"
@@ -435,7 +435,7 @@ class App extends React.Component {
           path="/mancity/overview"
           render={() => (
             <Overview
-              image="../images/ManCity.svg"
+              image="../Soccer-App/images/ManCity.svg"
               team="Man City"
               overviewUrl="/mancity/overview"
               playersUrl="/mancity/players"
@@ -448,7 +448,7 @@ class App extends React.Component {
           path="/mancity/players"
           render={() => (
             <TeamPlayerList
-              image="../images/ManCity.svg"
+              image="../Soccer-App/images/ManCity.svg"
               team="Man City"
               overviewUrl="/mancity/overview"
               playersUrl="/mancity/players"
@@ -462,7 +462,7 @@ class App extends React.Component {
           path="/mancity/results"
           render={() => (
             <Results
-              image="../images/ManCity.svg"
+              image="../Soccer-App/images/ManCity.svg"
               team="Man City"
               overviewUrl="/mancity/overview"
               playersUrl="/mancity/players"
@@ -474,7 +474,7 @@ class App extends React.Component {
           path="/manutd/overview"
           render={() => (
             <Overview
-              image="../images/ManUtd.svg"
+              image="../Soccer-App/images/ManUtd.svg"
               team="Man Utd"
               overviewUrl="/manutd/overview"
               playersUrl="/manutd/players"
@@ -487,7 +487,7 @@ class App extends React.Component {
           path="/manutd/players"
           render={() => (
             <TeamPlayerList
-              image="../images/ManUtd.svg"
+              image="../Soccer-App/images/ManUtd.svg"
               team="Man Utd"
               overviewUrl="/manutd/overview"
               playersUrl="/manutd/players"
@@ -501,7 +501,7 @@ class App extends React.Component {
           path="/manutd/results"
           render={() => (
             <Results
-              image="../images/ManUtd.svg"
+              image="../Soccer-App/images/ManUtd.svg"
               team="Man Utd"
               overviewUrl="/manutd/overview"
               playersUrl="/manutd/players"
@@ -513,7 +513,7 @@ class App extends React.Component {
           path="/newcastle/overview"
           render={() => (
             <Overview
-              image="../images/Newcastle.svg"
+              image="../Soccer-App/images/Newcastle.svg"
               team="Newcastle"
               overviewUrl="/newcastle/overview"
               playersUrl="/newcastle/players"
@@ -526,7 +526,7 @@ class App extends React.Component {
           path="/newcastle/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Newcastle.svg"
+              image="../Soccer-App/images/Newcastle.svg"
               team="Newcastle"
               overviewUrl="/newcastle/overview"
               playersUrl="/newcastle/players"
@@ -540,7 +540,7 @@ class App extends React.Component {
           path="/newcastle/results"
           render={() => (
             <Results
-              image="../images/Newcastle.svg"
+              image="../Soccer-App/images/Newcastle.svg"
               team="Newcastle"
               overviewUrl="/newcastle/overview"
               playersUrl="/newcastle/players"
@@ -552,7 +552,7 @@ class App extends React.Component {
           path="/norwich/overview"
           render={() => (
             <Overview
-              image="../images/Norwich.svg"
+              image="../Soccer-App/images/Norwich.svg"
               team="Norwich"
               overviewUrl="/norwich/overview"
               playersUrl="/norwich/players"
@@ -565,7 +565,7 @@ class App extends React.Component {
           path="/norwich/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Norwich.svg"
+              image="../Soccer-App/images/Norwich.svg"
               team="Norwich"
               overviewUrl="/norwich/overview"
               playersUrl="/norwich/players"
@@ -579,7 +579,7 @@ class App extends React.Component {
           path="/norwich/results"
           render={() => (
             <Results
-              image="../images/Norwich.svg"
+              image="../Soccer-App/images/Norwich.svg"
               team="Norwich"
               overviewUrl="/norwich/overview"
               playersUrl="/norwich/players"
@@ -591,7 +591,7 @@ class App extends React.Component {
           path="/sheffieldutd/overview"
           render={() => (
             <Overview
-              image="../images/SheffieldUtd.svg"
+              image="../Soccer-App/images/SheffieldUtd.svg"
               team="Sheffield Utd"
               overviewUrl="/sheffieldutd/overview"
               playersUrl="/sheffieldutd/players"
@@ -604,7 +604,7 @@ class App extends React.Component {
           path="/sheffieldutd/players"
           render={() => (
             <TeamPlayerList
-              image="../images/SheffieldUtd.svg"
+              image="../Soccer-App/images/SheffieldUtd.svg"
               team="Sheffield Utd"
               overviewUrl="/sheffieldutd/overview"
               playersUrl="/sheffieldutd/players"
@@ -618,7 +618,7 @@ class App extends React.Component {
           path="/sheffieldutd/results"
           render={() => (
             <Results
-              image="../images/SheffieldUtd.svg"
+              image="../Soccer-App/images/SheffieldUtd.svg"
               team="Sheffield Utd"
               overviewUrl="/sheffieldutd/overview"
               playersUrl="/sheffieldutd/players"
@@ -630,7 +630,7 @@ class App extends React.Component {
           path="/southampton/overview"
           render={() => (
             <Overview
-              image="../images/Southampton.svg"
+              image="../Soccer-App/images/Southampton.svg"
               team="Southampton"
               overviewUrl="/southampton/overview"
               playersUrl="/southampton/players"
@@ -643,7 +643,7 @@ class App extends React.Component {
           path="/southampton/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Southampton.svg"
+              image="../Soccer-App/images/Southampton.svg"
               team="Southampton"
               overviewUrl="/southampton/overview"
               playersUrl="/southampton/players"
@@ -657,7 +657,7 @@ class App extends React.Component {
           path="/southampton/results"
           render={() => (
             <Results
-              image="../images/Southampton.svg"
+              image="../Soccer-App/images/Southampton.svg"
               team="Southampton"
               overviewUrl="/southampton/overview"
               playersUrl="/southampton/players"
@@ -669,7 +669,7 @@ class App extends React.Component {
           path="/tottenham/overview"
           render={() => (
             <Overview
-              image="../images/Tottenham.svg"
+              image="../Soccer-App/images/Tottenham.svg"
               team="Tottenham"
               overviewUrl="/tottenham/overview"
               playersUrl="/tottenham/players"
@@ -682,7 +682,7 @@ class App extends React.Component {
           path="/tottenham/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Tottenham.svg"
+              image="../Soccer-App/images/Tottenham.svg"
               team="Tottenham"
               overviewUrl="/tottenham/overview"
               playersUrl="/tottenham/players"
@@ -696,7 +696,7 @@ class App extends React.Component {
           path="/tottenham/results"
           render={() => (
             <Results
-              image="../images/Tottenham.svg"
+              image="../Soccer-App/images/Tottenham.svg"
               team="Tottenham"
               overviewUrl="/tottenham/overview"
               playersUrl="/tottenham/players"
@@ -708,7 +708,7 @@ class App extends React.Component {
           path="/watford/overview"
           render={() => (
             <Overview
-              image="../images/Watford.svg"
+              image="../Soccer-App/images/Watford.svg"
               team="Watford"
               overviewUrl="/watford/overview"
               playersUrl="/watford/players"
@@ -721,7 +721,7 @@ class App extends React.Component {
           path="/watford/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Watford.svg"
+              image="../Soccer-App/images/Watford.svg"
               team="Watford"
               overviewUrl="/watford/overview"
               playersUrl="/watford/players"
@@ -735,7 +735,7 @@ class App extends React.Component {
           path="/watford/results"
           render={() => (
             <Results
-              image="../images/Watford.svg"
+              image="../Soccer-App/images/Watford.svg"
               team="Watford"
               overviewUrl="/watford/overview"
               playersUrl="/watford/players"
@@ -747,7 +747,7 @@ class App extends React.Component {
           path="/westham/overview"
           render={() => (
             <Overview
-              image="../images/WestHam.svg"
+              image="../Soccer-App/images/WestHam.svg"
               team="West Ham"
               overviewUrl="/westham/overview"
               playersUrl="/westham/players"
@@ -760,7 +760,7 @@ class App extends React.Component {
           path="/westham/players"
           render={() => (
             <TeamPlayerList
-              image="../images/WestHam.svg"
+              image="../Soccer-App/images/WestHam.svg"
               team="West Ham"
               overviewUrl="/westham/overview"
               playersUrl="/westham/players"
@@ -774,7 +774,7 @@ class App extends React.Component {
           path="/westham/results"
           render={() => (
             <Results
-              image="../images/WestHam.svg"
+              image="../Soccer-App/images/WestHam.svg"
               team="West Ham"
               overviewUrl="/westham/overview"
               playersUrl="/westham/players"
@@ -786,7 +786,7 @@ class App extends React.Component {
           path="/wolves/overview"
           render={() => (
             <Overview
-              image="../images/Wolves.svg"
+              image="../Soccer-App/images/Wolves.svg"
               team="Wolves"
               overviewUrl="/wolves/overview"
               playersUrl="/wolves/players"
@@ -799,7 +799,7 @@ class App extends React.Component {
           path="/wolves/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Wolves.svg"
+              image="../Soccer-App/images/Wolves.svg"
               team="Wolves"
               overviewUrl="/wolves/overview"
               playersUrl="/wolves/players"
@@ -813,7 +813,7 @@ class App extends React.Component {
           path="/wolves/results"
           render={() => (
             <Results
-              image="../images/Wolves.svg"
+              image="../Soccer-App/images/Wolves.svg"
               team="Wolves"
               overviewUrl="/wolves/overview"
               playersUrl="/wolves/players"

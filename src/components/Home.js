@@ -9,7 +9,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Arsenal.svg"
+              src="Soccer-App/images/Arsenal.svg"
               className="card-img-top"
               alt="Arsenal"
             />
@@ -25,7 +25,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/AstonVilla.svg"
+              src="Soccer-App/images/AstonVilla.svg"
               className="card-img-top"
               alt="Aston Villa"
             />
@@ -41,7 +41,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Bournemouth.svg"
+              src="Soccer-App/images/Bournemouth.svg"
               className="card-img-top"
               alt="Bournemouth"
             />
@@ -57,7 +57,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Brighton.svg"
+              src="Soccer-App/images/Brighton.svg"
               className="card-img-top"
               alt="Brighton"
             />
@@ -73,7 +73,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Burnley.svg"
+              src="Soccer-App/images/Burnley.svg"
               className="card-img-top"
               alt="Burnley"
             />
@@ -89,7 +89,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Chelsea.svg"
+              src="Soccer-App/images/Chelsea.svg"
               className="card-img-top"
               alt="Chelsea"
             />
@@ -105,7 +105,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/CrystalPalace.svg"
+              src="Soccer-App/images/CrystalPalace.svg"
               className="card-img-top"
               alt="Crystal Palace"
             />
@@ -121,7 +121,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Everton.svg"
+              src="Soccer-App/images/Everton.svg"
               className="card-img-top"
               alt="Everton"
             />
@@ -137,7 +137,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Leicester.svg"
+              src="Soccer-App/images/Leicester.svg"
               className="card-img-top"
               alt="Leicester"
             />
@@ -153,7 +153,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Liverpool.svg"
+              src="Soccer-App/images/Liverpool.svg"
               className="card-img-top"
               alt="Liverpool"
             />
@@ -169,7 +169,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/ManCity.svg"
+              src="Soccer-App/images/ManCity.svg"
               className="card-img-top"
               alt="Man City"
             />
@@ -185,7 +185,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/ManUtd.svg"
+              src="Soccer-App/images/ManUtd.svg"
               className="card-img-top"
               alt="Man Utd"
             />
@@ -200,7 +200,7 @@ const Home = () => {
         </div>
         <div className="col mb-4">
           <div className="card h-100">
-            <img src="./images/Newcastle.svg" id="newcastle" alt="Newcastle" />
+            <img src="Soccer-App/images/Newcastle.svg" id="newcastle" alt="Newcastle" />
             <div className="card-body">
               <h5 className="card-title">Newcastle</h5>
               <p className="card-text">St. James' Park, Newcastle</p>
@@ -213,7 +213,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Norwich.svg"
+              src="Soccer-App/images/Norwich.svg"
               className="card-img-top"
               alt="Norwich"
             />
@@ -229,7 +229,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/SheffieldUtd.svg"
+              src="Soccer-App/images/SheffieldUtd.svg"
               className="card-img-top"
               alt="Sheffield Utd"
             />
@@ -245,7 +245,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Southampton.svg"
+              src="Soccer-App/images/Southampton.svg"
               className="card-img-top"
               alt="Southampton"
             />
@@ -261,7 +261,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Tottenham.svg"
+              src="Soccer-App/images/Tottenham.svg"
               className="card-img-top"
               alt="Tottenham"
             />
@@ -277,7 +277,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Watford.svg"
+              src="Soccer-App/images/Watford.svg"
               className="card-img-top"
               alt="Watford"
             />
@@ -293,7 +293,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/WestHam.svg"
+              src="Soccer-App/images/WestHam.svg"
               className="card-img-top"
               alt="West Ham"
             />
@@ -309,7 +309,7 @@ const Home = () => {
         <div className="col mb-4">
           <div className="card h-100">
             <img
-              src="./images/Wolves.svg"
+              src="Soccer-App/images/Wolves.svg"
               className="card-img-top"
               alt="Wolves"
             />

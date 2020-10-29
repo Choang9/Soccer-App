@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="main-header" id="top">
-        <img src="./images/PremierLeague.png" alt="Premier League" className="main-image" />
+        <img src="Soccer-App/images/PremierLeague.png" alt="Premier League" className="main-image" />
         <h1 className="main-title">Premier League 2019/20 Data</h1>
       </div>
       <div className="alert alert-primary" role="alert">
