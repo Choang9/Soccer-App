@@ -57,9 +57,9 @@ const Header = () => {
             <li className="nav-item">
               <Link to="/standings" className="nav-link">Standings</Link>
             </li>
-            {/* <li class="nav-item">
-              <Link to="/seasonstats" className="nav-link">Season Stats</Link>
-            </li> */}
+            <li class="nav-item">
+              <Link to="/stats" className="nav-link">Season Stats</Link>
+            </li>
           </ul>
           {/* <form className="form-inline my-2 my-lg-0">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />

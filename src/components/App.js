@@ -10,6 +10,7 @@ import TeamResultsList from "./Teams/TeamResultsList";
 import MainPlayerList from "./MainPlayerList";
 import Standings from "./Standings";
 import Results from "./Results";
+import Stats from "./Stats";
 
 
 class App extends React.Component {
@@ -43,7 +44,7 @@ class App extends React.Component {
           path="/arsenal/overview"
           render={() => (
             <Overview
-              image="../images/Arsenal.svg"
+              image="./images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
@@ -56,7 +57,7 @@ class App extends React.Component {
           path="/arsenal/players"
           render={() => (
             <TeamPlayerList
-              image="../images/Arsenal.svg"
+              image="./images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
@@ -70,7 +71,7 @@ class App extends React.Component {
           path="/arsenal/results"
           render={() => (
             <TeamResultsList
-              image="../images/Arsenal.svg"
+              image="./images/Arsenal.svg"
               team="Arsenal"
               overviewUrl="/arsenal/overview"
               playersUrl="/arsenal/players"
@@ -831,6 +832,10 @@ class App extends React.Component {
         <Route
           path="/standings"
           component={Standings}
+        />
+        <Route
+          path="/stats"
+          component={Stats}
         />
         <Route
           path="/results"
