@@ -1,5 +1,7 @@
 # Premier League 2019/20 Soccer Data Application
 
+Live demo: https://choang9.github.io/Soccer-App/
+
 ## Introduction
 
 This is a personal project that displays data from the soccer league English Premier League season 2019/20. User can navigate through pages to find data related to a particular team or a particular player. This is a demo project and has free tier API access with incomplete data.
@@ -30,16 +32,10 @@ When the application is open, you can access any data you want by clicking at th
 
 ## Acknowledgements
 
-* [Premier League](https://www.premierleague.com/) 
 * [FootyStats API](https://footystats.org/api/)
-* [Football History](https://www.footballhistory.org/)
 * [GitHub Page: Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere/)
-* [Treehouse](https://teamtreehouse.com/home)
-* [Flexbox Cheetsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [W3Schools](https://www.w3schools.com/)
 
 ## Contact
 
 Chinh Hoang - choang@seattleu.edu
-Project Link: [https://github.com/Choang9/Soccer-App](https://github.com/Choang9/Soccer-App)
 
