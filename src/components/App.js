@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -37,7 +37,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter basename="/Soccer-App" >
+      <HashRouter>
         <Header />
         <Route exact path="/" component={Home} />
         <Route
@@ -842,7 +842,7 @@ class App extends React.Component {
           component={Results}
         />
         <Footer />
-      </BrowserRouter >
+      </HashRouter >
     );
   }
 }
