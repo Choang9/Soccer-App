@@ -37,7 +37,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/Soccer-App" >
         <Header />
         <Route exact path="/" component={Home} />
         <Route
