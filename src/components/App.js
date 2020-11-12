@@ -842,7 +842,7 @@ class App extends React.Component {
           component={Results}
         />
         <Footer />
-      </HashRouter >
+      </HashRouter>
     );
   }
 }
