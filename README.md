@@ -1,6 +1,6 @@
 # Premier League 2019/20 Soccer Data Application
 
-Live demo: https://choang9.github.io/Soccer-App/
+
 
 ## Introduction
 
